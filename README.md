@@ -1,16 +1,38 @@
-# 🍋 Little Lemon Django Project
+# 🍋 Little Lemon — Django Web App
 
-A full-stack Django project built during Coursera specialization.
+🚀 **Capstone project for Meta's Django Web Framework Course on Coursera**  
+🎓 Completed by **Karim Mohamed**, May 2025 — Score: **91%**
 
-## Features:
-- 🧾 Dynamic menu from database
-- 📷 Image & description for each item
-- 🧑‍🍳 Booking form connected to models
-- ✅ Admin panel
-- 🧱 Template Inheritance
+---
 
-## How to run locally:
+## 📚 Description
+
+This project simulates a restaurant website "Little Lemon", built using Django and MySQL.  
+It includes:
+
+- 🧾 Menu listing with images, prices, and descriptions
+- 🧍‍♂️ Reservation form (stored in database)
+- 🛠 Admin interface for managing menu items
+- 🔐 Security best practices (CSRF, input validation)
+- 🧱 Template inheritance with reusable components
+
+---
+
+## 💻 Tech Stack
+
+- Python 3.12
+- Django 5.2
+- SQLite
+- HTML5, CSS3
+- Git & GitHub
+
+---
+
+## 🧪 How to Run Locally
 
 ```bash
+git clone https://github.com/karim-salim/littlelemon-django.git
+cd littlelemon-django
+pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
