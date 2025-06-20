@@ -31,7 +31,7 @@ It includes:
 ## 🧪 How to Run Locally
 
 ```bash
-git clone https://github.com/karim-salim/littlelemon-django.git
+git clone https://github.com/karisalim/littlelemon-django
 cd littlelemon-django
 pip install -r requirements.txt
 python manage.py migrate
