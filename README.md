@@ -32,7 +32,6 @@ It includes:
 
 ```bash
 git clone https://github.com/karisalim/littlelemon-django
-cd littlelemon-django
-pip install -r requirements.txt
+cd littlelemon
 python manage.py migrate
 python manage.py runserver
